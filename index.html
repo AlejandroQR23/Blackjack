@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title> Blackjack </title>
+    </head>
+    <body>
+
+        <header class="title">
+            Blackjack
+        </header>
+
+        <div class="row mt-2">
+            <div class="col text-center">
+                <button class="btn btn-danger"> New Game </button>
+                <button class="btn btn-primary"> Ask for a card </button>
+                <button class="btn btn-primary"> Stop </button>
+            </div>
+        </div>
+
+        <div class="row container">
+            <div class="col">
+                <h1> Player 1 - <small>0</small> </h1>
+                <div id="player-cards">
+                    <img class="card" src="assets/cards/2C.png" alt="card">
+                    <img class="card" src="assets/cards/2C.png" alt="card">
+                    <img class="card" src="assets/cards/2C.png" alt="card">
+                </div>
+            </div>
+        </div>
+
+        <div class="row container mt-2">
+            <div class="col">
+                <h1> AI - <small>0</small> </h1>
+                <div id="ai-cards">
+                    <img class="card" src="assets/cards/2C.png" alt="card">
+                    <img class="card" src="assets/cards/2C.png" alt="card">
+                    <img class="card" src="assets/cards/2C.png" alt="card">
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/underscore@1.12.1/underscore-min.js"></script>
+        <script src="assets/js/game.js" charset="utf-8"></script>
+
+    </body>
+</html>
